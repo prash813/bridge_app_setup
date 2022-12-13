@@ -7,7 +7,7 @@ cd /opt/myproj/connectedhomeip/parts/matter-dev/
 tar -zxf assets.tar.gz
 ./build/out/python_env/bin/activate
 ./build/out/python_env/bin/python -m pip install --upgrade pip
-./build/out/python_env/bin/pip install --upgrade --force-reinstall --no-cache-dir ./python_lib/controller/python/chip_core-0.0-cp37-abi3-linux_aarch64.whl
+./build/out/python_env/bin/pip install --upgrade --force-reinstall --no-cache-dir ./build/out/python_lib/controller/python/chip_core-0.0-cp37-abi3-linux_aarch64.whl
 cd ./examples/lighting-app/tapo-bridge
 pip install -r requirements.txt 
 echo "Run the application as python lighting.py"
